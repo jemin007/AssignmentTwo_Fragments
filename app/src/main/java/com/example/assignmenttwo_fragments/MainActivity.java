@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.assignmenttwo_fragments.Fragments.AreaOfCircle;
+import com.example.assignmenttwo_fragments.Fragments.Armstrong;
 import com.example.assignmenttwo_fragments.Fragments.Palindrome;
 import com.example.assignmenttwo_fragments.Fragments.SimpleInterest;
 
@@ -60,6 +61,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fragmentTransaction.replace(R.id.fragmentContainer, simpleInterest);
                 fragmentTransaction.commit();
                 break;
+
+            case R.id.btnArmstrong:
+                Armstrong armstrong= new Armstrong();
+                fragmentTransaction.replace(R.id.fragmentContainer, armstrong);
+                fragmentTransaction.commit();
+                break;
+
         }
 
     }
