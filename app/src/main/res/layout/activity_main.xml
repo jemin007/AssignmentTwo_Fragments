@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:rowCount="2"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:columnCount="3">
 
@@ -65,6 +66,7 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:id="@+id/fragmentContainer"
+        android:layout_marginTop="30dp"
         android:layout_height="500dp"/>
 
 </LinearLayout>

@@ -4,10 +4,10 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="colorA">#D81B60</color>
-    <color name="colorB">#D81B60</color>
-    <color name="colorC">#D81B60</color>
-    <color name="colorD">#D81B60</color>
-    <color name="colorE">#D81B60</color>
-    <color name="colorF">#D81B60</color>
+    <color name="colorA">#E94057</color>
+    <color name="colorB">#6DD5FA</color>
+    <color name="colorC">#c471ed</color>
+    <color name="colorD">#f64f59</color>
+    <color name="colorE">#C6FFDD</color>
+    <color name="colorF">#f5af19</color>
 </resources>

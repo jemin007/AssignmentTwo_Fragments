@@ -2,8 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="300sp"
+    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorA"
     tools:context=".Fragments.AreaOfCircle">
 
     <EditText
@@ -20,5 +21,13 @@
         android:textSize="25sp"
         android:text="Calculate"
         android:id="@+id/btnArea"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="30sp"
+        android:id="@+id/tvArea"/>
 
 </LinearLayout>
