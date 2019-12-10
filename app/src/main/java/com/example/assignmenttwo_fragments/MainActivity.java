@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.example.assignmenttwo_fragments.Fragments.AreaOfCircle;
 import com.example.assignmenttwo_fragments.Fragments.Palindrome;
+import com.example.assignmenttwo_fragments.Fragments.SimpleInterest;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -51,6 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnPalindrome:
                 Palindrome palindrome= new Palindrome();
                 fragmentTransaction.replace(R.id.fragmentContainer, palindrome);
+                fragmentTransaction.commit();
+                break;
+
+            case R.id.btnSI:
+                SimpleInterest simpleInterest= new SimpleInterest();
+                fragmentTransaction.replace(R.id.fragmentContainer, simpleInterest);
                 fragmentTransaction.commit();
                 break;
         }
