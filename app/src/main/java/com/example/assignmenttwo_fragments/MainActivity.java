@@ -13,6 +13,7 @@ import com.example.assignmenttwo_fragments.Fragments.Armstrong;
 import com.example.assignmenttwo_fragments.Fragments.Automorphic;
 import com.example.assignmenttwo_fragments.Fragments.Palindrome;
 import com.example.assignmenttwo_fragments.Fragments.SimpleInterest;
+import com.example.assignmenttwo_fragments.Fragments.Swapping;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -72,6 +73,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnAuto:
                 Automorphic automorphic= new Automorphic();
                 fragmentTransaction.replace(R.id.fragmentContainer, automorphic);
+                fragmentTransaction.commit();
+                break;
+
+            case R.id.btnSwap:
+                Swapping swapping= new Swapping();
+                fragmentTransaction.replace(R.id.fragmentContainer, swapping);
                 fragmentTransaction.commit();
                 break;
 
